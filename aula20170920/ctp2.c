@@ -9,5 +9,5 @@ int main () {
     for(i=0;frase[i];i++){
         frase[i] = tolower(frase[i]);
 }   printf("%s", frase);
-    return EXIT_SUCCESS;
+    return EXIT_SUCCESS;\\rodando normal
 }
