@@ -17,10 +17,8 @@ int main()
     else
     {
         printf("Numero par. \n");
-        if (num%3 == 0)
-            printf ("Numero multiplo de 3. \n");
-        if (num%7 == 0)
-            printf ("Numero multiplo de 7. \n");
+        if (num%3 == 0 || num%7 == 0)
+            printf ("Numero multiplo de 3 ou 7. \n");
             else
                 printf ("Numero nao e multiplo de 3 nem de 7. \n");
     }
