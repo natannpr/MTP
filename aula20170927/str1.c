@@ -9,11 +9,10 @@ int main() {
     printf("Entre com uma frase: ");
     fgets(frase,N,stdin); frase[strlen(frase)-1] = '\0';
     for(i=0;i<N;i++) frase[i] = toupper(frase[i]);
-    printf("O tamanho da string: %d\n", strlen(frase));
     if(strncmp(frase,"BOM DIA",7) == 0)
         printf("Bom dia pra voce tambem!");
-    else{ if(strncmp(frase,"TCHAU",7) == 0)
-        printf("Saindo? Que pena...");
+    else{ if(strncmp(frase,"TCHAU!! FUI!",7) == 0)
+        printf("%d, Saindo? Que pena...", strlen(frase));
     else{
             strcpy(msg, "Voce quis dizer: ");
             strcat(msg, frase);
