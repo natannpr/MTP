@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main(){
-    int x,y,z;
+    float x,y,z;
     printf("Entre com dois numeros reais : ");
-    scanf("%d%d",&x,&y);
+    scanf("%f%f",&x,&y);
     z = x+y;
-    int vetor[] = {x,y,z};
-    int * ponteiro;
-    int i, contagem = 0;
+    float vetor[] = {x,y,z};
+    float * ponteiro;
+    int i;
     ponteiro =  vetor;
     for(i=0 ; i < 3 ; i++ ) {
-            printf("End.: %p, dado : %d\n", ponteiro+i,ponteiro[i]);
+            printf("End.: %p, dado : %f \n", ponteiro+i,ponteiro[i]);
             }
   return 0;
 }
