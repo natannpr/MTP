@@ -3,10 +3,13 @@
 #define N 256
 int main () {
     char frase[N];
-    int i;
+    int i,x=0;
     printf("Entre com uma frase: \n");
     fgets(frase,N,stdin);
-    for(i=0;frase[i];i++){
-}   printf("O numero de letras e : %d",i);
+    for(i=1;frase[i] != '\0';i++){
+            if(frase[i] != '!' && frase[i] != '?' && frase[i] != '.' && frase[i] != ' ' && frase[i] != '\0'){
+            x++;}
+    else {}
+}   printf("O numero de letras e : %d",x);
     return EXIT_SUCCESS;
 }
