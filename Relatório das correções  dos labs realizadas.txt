@@ -1,0 +1,15 @@
+LAB 1 - todos foram concertados . 
+LAB 2 - Programas que sao acusados de apresentar problemas de compilação compilam e executam normalmente , so de compilar os resutaldos ja sairam certos
+pode ser sido problema no programa teste utilizado pelo professor ou entao meus executaveis nao estavam atualizados .
+LAB 3 - todos foram concertados . 
+LAB 4 - todos foram concertados . 
+LAB 5 - todos foram concertados . 
+LAB 6 - todos foram concertados .
+LAB 7 - Já estava tudo Certo .
+LAB 8 - Não havia log para realizar correções . 
+LAB 9 - Já estava tudo Certo .
+LAB 10 - Não havia log para realizar correções .
+
+
+Aluno : Natan Paranaiba Ribeiro 
+Matrícula : 11621ETE014
